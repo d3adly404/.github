@@ -1,0 +1,32 @@
+{
+  "name": "ghana-bed-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Real-time hospital bed availability tracker and patient alerting system for Ghana",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 3000",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p 3000",
+    "typecheck": "tsc --noEmit",
+    "db:reset": "node scripts/reset-db.mjs"
+  },
+  "dependencies": {
+    "leaflet": "1.9.4",
+    "next": "16.4.3",
+    "nodemailer": "6.9.15",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "web-push": "3.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/leaflet": "1.9.12",
+    "@types/node": "22.7.5",
+    "@types/nodemailer": "6.4.16",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "@types/web-push": "3.6.3",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
+  }
+}
